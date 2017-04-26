@@ -21,6 +21,11 @@ Git—
 19. git remote : will show remote directory for current repository.
 20. git remote add address: will add remote directory like Github
 21. git remote -v : will show the address where push and fetch will be done  
+22. rm -fr .git  : This command will remove the git init and remove the directory from git repo
 22. GIt cheat sheet
 https://github.com/github/training-kit/blob/master/downloads/github-git-cheat-sheet.pdf 
 https://help.github.com/articles/dealing-with-line-endings/#platform-all 
+
+
+-------------------------
+
