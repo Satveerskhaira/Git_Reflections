@@ -1,0 +1,26 @@
+Git—
+
+1. Git Clone Address-(Github)
+2. Git log- this will show all the commits
+3. Git Diff- Commit ID1 ID2— this will show difference in files
+4. To get colored diff output, run -git config --global color.ui auto
+5. Type Q to come out of Git log, diff
+6. git checkout ID- to checkout old code to see issue or changes
+7. git init - Change any directory of Git repository 
+8. git Status- will show which file is changed since last commit
+9. git diff —staged : this will show change done in staged area to current workspace
+10. git checkout master- checkout final commit
+11. Git branch- will show all the branches with master branch and which one is currently checked out.
+12. Git checkout branch_name - will check out branch you want to work on to add additional functionality.
+13. git log --graph --oneline branch1 branch2 : this will show all the relative commit done on both branches.
+14. git checkout -b new_branch_name
+15. git merge master branch : first check out master branch
+16. git show id: will show difference of that id with parent head or master
+17. git branch -d branch_name : this will delete the branch label not the commits mades by that branch. All the commits can be seen in master branch as branch is merged with master head.
+18.  Restore your files to their state before you started the merge by running git merge --abort
+19. git remote : will show remote directory for current repository.
+20. git remote add address: will add remote directory like Github
+21. git remote -v : will show the address where push and fetch will be done  
+22. GIt cheat sheet
+https://github.com/github/training-kit/blob/master/downloads/github-git-cheat-sheet.pdf 
+https://help.github.com/articles/dealing-with-line-endings/#platform-all 
